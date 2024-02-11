@@ -1,7 +1,9 @@
 console.log('Hello World')
 
-// commonly use variable type we use in javascript is let and const
-// when we create variales we shold have dataype and variable type
+// We commonly use let and const as data type in javascript
+// when we create variables we shold have dataype and assign value variables
+// Variables: A variable can be thought of as a memory location that can hold values of a specific type.
+// The value in a variable may change during the life of the program—hence the name “variable
 
 // dataype is string anything in the quote
 let firstName = 'John'
@@ -69,7 +71,7 @@ remainder = 42 % 7
 console.log(remainder)
 
 
-// variable with integer and string
+// datatype with integer and string
 let intStr = 'My favorite number is 16'
 console.log(intStr)
 
