@@ -93,7 +93,7 @@ let lName = "Muhammad"
 
 let cityName = 'Zurich'
 
-console.log(fName + ' ' + lName + ', from ' + cityName)
+console.log(fName + '            ' + lName + ' is from ' + cityName)
 
 let text2 = 'Pizza'
 let text3 = 'Sandwich'
@@ -109,10 +109,13 @@ let sumOfThreeNumber = 5 + 9 + 6 + '4'
 console.log(sumOfThreeNumber)
 //204
 
+console.log(sumOfThreeNumber + 9)
+
 sumOfThreeNumber = '5' + 9 + 6 + '4'
 console.log(sumOfThreeNumber)
 //5964
 
 //Static variable and dynamic variable 
 // static doens't change and dynamic chages
+
 
