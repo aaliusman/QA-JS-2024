@@ -10,7 +10,7 @@
 // let x =, y = 8, z = 9
 // result = x < y || x < z
 // let n = !result
-//  if and else (always work with true or false), forloop,
+//  if and else (always work with true or false)
 
 // let x = "45" or let x = 45 or let x = "Hello"
 let sale1 =  '45' + 5
@@ -27,6 +27,21 @@ console.log(sumOfOne)
 // There are two main Datatype Primitive and obeject
 //Primitive: nubmer, string, boolean, null, undefined
 //
+
+let checkValue = true
+if (checkValue) {
+    console.log('True&&&&&&&')
+} else {
+    console.log('False&&&&&')
+}
+
+checkValue = false
+if (checkValue) {
+    console.log('True&&&&&&')
+} else {
+    console.log('False&&&&&')
+}
+
 
 // example of null
 let myNullVariable = null;
@@ -174,4 +189,15 @@ if ( 'A' !== 'A' || 'b' === 'b' ) {
     console.log('only will print when none of the abvoe condition is true')
 }
 
+
+
+
+
+
+
+
+
+
+
+    
 
