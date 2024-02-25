@@ -1,0 +1,13 @@
+Global Variable:
+
+A global variable is a variable that is declared outside of any function or block in a program.
+Global variables are accessible and can be used throughout the entire program, including inside functions or blocks.
+They have a global scope, meaning they can be accessed from any part of the program.
+Global variables are typically declared at the top of a program or in a separate configuration file.
+Local Variable:
+
+A local variable is a variable that is declared within a function or block in a program.
+Local variables are only accessible within the function or block in which they are declared.
+They have a local scope, meaning they are limited to the function or block where they are defined.
+Local variables are created when the function or block is executed and are destroyed once the function or block completes execution.
+

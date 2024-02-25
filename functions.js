@@ -30,7 +30,6 @@ function getName() {
 console.log(getName());
 
 //return function for boolean
-
 function getTrueOrFalse() {
     let value;
     if ( 1 > 2) {
@@ -42,7 +41,6 @@ function getTrueOrFalse() {
 }
 
 // getTrueOrFalse = false
-
 console.log(getTrueOrFalse())
 
 // return function
@@ -88,3 +86,48 @@ function getCars(country) {
 }
 
 console.log(getCars('Italian'));
+
+
+function add(n1, n2) {
+    let sum = n1 + n2;
+    return sum;
+}
+console.log(add(20, 50));
+
+
+//arrow function
+let add1 = (n1, n2, n3) => n1 + n2 + n3;
+let resulttt = add1(10, 4, 5)
+console.log(resulttt)
+
+
+// The this keyword refers to the current object in a method or 
+// constructor. The most common use of the this keyword is to eliminate
+// the confusion between class attributes and parameters with the same name 
+// (because a class attribute is shadowed by a method or constructor parameter)
+
+// what is 'this' keyword
+let laptop = {
+    cpu: 'i9',
+    ram: '16gb',
+    brand: 'Mac',
+    getConfig: function() {
+        let storage = 100
+        console.log(this.ram)
+    }
+}
+
+console.log(laptop.cpu);
+laptop.getConfig();
+
+
+//recursion function
+// interview question
+let num = 1;
+function show23 () {
+    if (num < 4) {
+        console.log('Hello Antor')
+        num++;
+        show23();   
+    } 
+}

@@ -4,6 +4,15 @@
 //  efficient way to store data. 
 // list of item store in one variable
 
+//empty array
+
+let fruits = [];
+fruits.push('Apple')
+fruits.push('Banana')
+fruits.push('Mango')
+// fruits = ['Apple', 'Banana', 'Mango']
+console.log(fruits[1])
+
 // let names = 'Usman'
 let names = ['Usman', 'Antor', 'Hammas', 'Aaniq']
 console.log('Datatype of names' + typeof names)
@@ -86,3 +95,6 @@ console.log(strngg[3])
 const strnggg = 'Tech World Is Here';
 const st = strnggg.split('I')
 console.log(st)
+
+
+

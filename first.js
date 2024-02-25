@@ -77,6 +77,9 @@ console.log(intStr)
 
 // this is also called concatenation 
 // + can be use for addition and concatenation
+// 'a' + 'b' = ab
+// '4' + '5' = 45
+// 4 + 5 = 9
 let sumOfTwo = 7 + 9
 intStr = 'My favorite number is ' - sumOfTwo
 console.log(intStr)
