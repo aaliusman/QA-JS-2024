@@ -23,15 +23,17 @@ console.log(text)
 let myAge = 50
 console.log(myAge)
 
+//naming conventions
 //two common types of writing variables camel case and snake case
+// camel case
 let numOfSchool = 45;
 console.log(numOfSchool)
 
+//sanke case
 let num_of_school = 45;
 console.log(num_of_school)
 
 // Arithmatic operators  + - * / %
-
 let sales = 50 + 100;
 console.log(sales)
 
@@ -81,7 +83,9 @@ console.log(intStr)
 // '4' + '5' = 45
 // 4 + 5 = 9
 let sumOfTwo = 7 + 9
-intStr = 'My favorite number is ' - sumOfTwo
+intStr = 'My fovarite number is: ' - sumOfTwo
+
+// should expect to see an error NaN(Not an actual number)
 console.log(intStr)
 
 let text1 = 'I am going to'
@@ -114,11 +118,20 @@ console.log(sumOfThreeNumber)
 
 console.log(sumOfThreeNumber + 9)
 
+// never try to concatenate between number and string, always try to covert
+// ether string to number or number to string.
 sumOfThreeNumber = '5' + 9 + 6 + '4'
 console.log(sumOfThreeNumber)
 //5964
 
 //Static variable and dynamic variable 
 // static doens't change and dynamic chages
+
+// how to covert string to number
+let str = "123";
+console.log(typeof str)
+const num = parseInt(str);
+console.log(typeof num)
+console.log(1 + num)
 
 

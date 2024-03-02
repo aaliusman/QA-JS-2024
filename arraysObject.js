@@ -7,11 +7,15 @@
 //empty array
 
 let fruits = [];
-fruits.push('Apple')
+fruits.push('Apple', 'Banana', 'Banana', 'Banana')
 fruits.push('Banana')
 fruits.push('Mango')
 // fruits = ['Apple', 'Banana', 'Mango']
 console.log(fruits[1])
+console.log(fruits.length)// 3
+console.log(fruits[1]) // Banana
+console.log(fruits[2]) // Banana
+
 
 // let names = 'Usman'
 let names = ['Usman', 'Antor', 'Hammas', 'Aaniq']
@@ -95,6 +99,14 @@ console.log(strngg[3])
 const strnggg = 'Tech World Is Here';
 const st = strnggg.split('I')
 console.log(st)
+//['Tech world ', 's Here']
+
+const strnggg2 = 'Tech World Is HIere';
+const st2 = strnggg2.split('I')
+console.log(st2)
+console.log(st2[2]);
+console.log(strnggg2.length);
+console.log(strnggg2[3]);
 
 
 

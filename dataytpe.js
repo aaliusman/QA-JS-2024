@@ -1,4 +1,4 @@
-// There are two main Datatype Primitive and obeject
+// There are two main Datatype Primitive and obejects
 // Primitive: Number, String, Boolean, Undefined, Null
 // dataytype define by variable value
 // Everything is difficult, until you learn it
@@ -7,9 +7,10 @@
 // let x = 10; console.log(typeof x)
 // Relational operator ===, ==
 // logical operator And Or Not || &&
-// let x =, y = 8, z = 9
-// result = x < y || x < z
-// let n = !result
+let x = 1, y = 8, z = 9
+result = x < y || x < z
+let n = !result
+console.log(n);
 //  if and else (always work with true or false)
 
 // let x = "45" or let x = 45 or let x = "Hello"
@@ -64,7 +65,7 @@ compareValue = 9 < 8;
 console.log(compareValue);
 
 let town1 = 'Langhorne';
-let town2 = 'Langhorne';
+let town2 = 'Langhorner';
 console.log('*******');
 console.log("line nubmer 55: " + (town1 === town2))
 console.log('*******');

@@ -15,9 +15,10 @@ function greet() {
     console.log('Welcome to Dunia')
     console.log('Hammas is so talkative')
     console.log(4 + x)
-}
 
+}
 greet();
+
 
 //return function
 function getName() {
