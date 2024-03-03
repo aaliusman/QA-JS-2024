@@ -17,8 +17,8 @@ class User {
         return {name: this.name, email: this.email}
     }
 
-    enrollCourse (name) {
-        courseList.push(name)
+    enrollCourse (nam) {
+        courseList.push(nam)
     }
 
     getCourseList () {

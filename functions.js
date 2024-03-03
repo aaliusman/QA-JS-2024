@@ -101,6 +101,14 @@ let add1 = (n1, n2, n3) => n1 + n2 + n3;
 let resulttt = add1(10, 4, 5)
 console.log(resulttt)
 
+function adddd (n1, n2, n3) {
+    result = n1 + n2 + n3
+    return result;
+}
+console.log(adddd(10, 4, 5));
+
+
+
 
 // The this keyword refers to the current object in a method or 
 // constructor. The most common use of the this keyword is to eliminate
@@ -115,14 +123,21 @@ let laptop = {
     getConfig: function() {
         let storage = 100
         console.log(this.ram)
+        return storage;
     }
 }
+// laptop.getConfig() = 100
+// abc = 100
+// abc;
+// console.log(abc)
+//console.log(laptop.getConfig())
 
 console.log(laptop.cpu);
 laptop.getConfig();
+console.log(laptop.getConfig());//i9, 16gb, 16gb, 100
 
 
-//recursion function
+//recursion function, if we want to call same function within the function
 // interview question
 let num = 1;
 function show23 () {
@@ -132,3 +147,8 @@ function show23 () {
         show23();   
     } 
 }
+
+// show23 = object
+
+show23();
+

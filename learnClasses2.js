@@ -5,12 +5,16 @@ const User = require('./learnClasses1.js')
 const newUser = new User('Antor', 'aliu01373@gmail.com');
 console.log(newUser.getInfo())
 console.log(newUser.getInfo().name);
+// hello user, name and email, name
+const newUser2 = new User('Antor', 'aliu01373@gmail.com');
+// hello user, name and email, name, hello new user
 
 console.log('before adding values to array')
 console.log(newUser.getCourseList());
 
 newUser.enrollCourse('Cypress')
 //courseList = ['Cypress']
+console.log(newUser.getCourseList())
 newUser.enrollCourse('Python');
 //courseList = ['Cypress', 'Python']
 newUser.enrollCourse('Selenium')

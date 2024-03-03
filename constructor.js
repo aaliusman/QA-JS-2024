@@ -1,7 +1,7 @@
 
 //constructor: special method for defining the properties and 
 //             method of object. constructor automatically called
-//              when new object is create for class.            
+//              whenever we craeta a new object for class.            
 
 //Template literals
 const car1 = {
