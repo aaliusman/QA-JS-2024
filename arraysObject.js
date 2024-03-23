@@ -109,4 +109,9 @@ console.log(strnggg2.length);
 console.log(strnggg2[3]);
 
 
+const fruitss = ['apple', 'banana', 'cherry', 'date', 'elderberry'];
+
+// Extract a section from index 1 to index 3 (exclusive)
+const slicedFruits = fruitss.slice(1, 4);
+console.log(slicedFruits); // Output: ['banana', 'cherry']
 

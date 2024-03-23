@@ -2,9 +2,11 @@
 // palindrome 
 function isPalindrome(str) {
     // Remove non-alphanumeric characters and convert to lowercase
+    // const str = "1madam"
     const cleanStr = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
     console.log(cleanStr)
     // Reverse the string
+    // madam   = madam
     const reversedStr = cleanStr.split('').reverse().join('');
     console.log(reversedStr)
     
@@ -16,6 +18,7 @@ const testString = "A man, a plan, a canal, Panama!!";
 console.log(isPalindrome(testString));
 
 // anagram
+// asdfg  = gsdfa
 function isAnagram(str1, str2) {
     // Remove non-alphanumeric characters and convert to lowercase
     const cleanStr1 = str1.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
@@ -28,7 +31,9 @@ function isAnagram(str1, str2) {
     
     // Sort the characters in both strings and compare them
     const sortedStr1 = cleanStr1.split('').sort().join('');
+    // gsdfa  after sored it's gonna look like adfgs 
     const sortedStr2 = cleanStr2.split('').sort().join('');
+    console.log(sortedStr1)
     
     // Check if the sorted strings are equal
     return sortedStr1 === sortedStr2;
@@ -36,7 +41,9 @@ function isAnagram(str1, str2) {
 
 // Test the function
 const testString1 = "listen";
+// eilnst
 const testString2 = "silent";
+// eilnst
 console.log(isAnagram(testString1, testString2));
 
 //recursion function
@@ -49,11 +56,15 @@ function show23 () {
     } 
 }
 
+show23()
+
 //How to find duplicate characters in string
 function findDuplicateCharacters(str) {
     let charMap = {};
     let duplicates = [];
 
+    // will loop through each character of string
+    // abcdd
     for (let char of str) {
         // Ignore spaces
         if (char !== ' ') {
@@ -74,7 +85,7 @@ function findDuplicateCharacters(str) {
 }
 
 // Test the function
-const testDupString = "Hello, World!";
+const testDupString = "Hello, Worldd!";
 console.log(findDuplicateCharacters(testDupString));
 
 //reverse string
@@ -83,6 +94,7 @@ function reverseString(str) {
 }
 
 // Example
-var originalString = "Hello, World!";
-var reversedString = reverseString(originalString);
+const originalString = "!dlroW ,olleH";
+const reversedString = reverseString(originalString);
+console.log(reversedString); // Output: "!dlroW ,olleH"
 console.log(reversedString); // Output: "!dlroW ,olleH"
